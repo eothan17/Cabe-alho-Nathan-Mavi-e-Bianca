@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000000;
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+nav {
+    background-color: #ffffff;
+    height: 80px;
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+
+nav li {
+    position: relative; 
+}
+
+nav li a {
+    display: block;
+    color: rgb(86, 9, 187);
+    text-decoration: none;
+    padding: 20px 25px;
+    font-size: 16px;
+}
+
+nav li a:hover {
+    background-color: rgb(86, 9, 187);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+
+.menu_legal {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    display: none;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
+
+.menu_legal a {
+    color: black;
+    padding: 10px 20px;
+    display: block;
+    text-align: left;
+}
+
+.menu:hover .menu_legal {
+    display: block;
+}
+
+.nosdanota h1{
+    font-size: 50px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 100px;
+}
+
+.nosdanota h1:hover{
+    color: rgb(153, 0, 255);
+    transform: scale(0.8);
+}
+
+footer{
+    background-color: rgb(153, 0, 255);
+    margin: 150px;
+    border-radius: 20px;
+}
+
+footer h1{
+    font-size: 15px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    padding: 100px;
+}
+
+footer:hover{
+    background-color: #ffffff;
+}
+
+footer h1:hover{
+    color: rgb(153, 0, 255);
+}
