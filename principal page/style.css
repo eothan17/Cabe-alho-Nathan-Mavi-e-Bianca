@@ -111,3 +111,9 @@ footer:hover{
 footer h1:hover{
     color: rgb(153, 0, 255);
 }
+
+.imagem img{
+    display: flex;
+    justify-content: center;
+    width: 100vh;
+}
