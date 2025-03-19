@@ -116,6 +116,5 @@ footer h1:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50vh;
-    transform: translateX(0);
+    width: 50vh;justify-items: center;
 }
