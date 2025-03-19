@@ -70,20 +70,7 @@ nav li a:hover {
     display: block;
 }
 
-.nosdanota h1{
-    font-size: 50px;
-    color: #ffffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    margin-top: 100px;
-}
 
-.nosdanota h1:hover{
-    color: rgb(153, 0, 255);
-    transform: scale(0.8);
-}
 
 footer{
     background-color: rgb(153, 0, 255);
@@ -112,9 +99,3 @@ footer h1:hover{
     color: rgb(153, 0, 255);
 }
 
-.imagem img{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50vh;justify-items: center;
-}
